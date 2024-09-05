@@ -2,6 +2,10 @@
 
 This is a simple e-commerce application built with React and Material-UI that allows users to browse a list of products, add them to a shopping cart, and view the cart.
 
+## Live Demo
+
+Check out the live version of the application [here](https://ecommerce-eight-dusky-76.vercel.app/).
+
 ## Features
 
 - **Product List Page**: Displays a list of products with basic details (e.g., title, image, price, and description). Each product has an "Add to Cart" button.
