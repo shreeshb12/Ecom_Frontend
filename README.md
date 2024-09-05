@@ -64,7 +64,7 @@ ecommerce-app/
 │
 ├── package.json                # npm scripts and dependencies
 └── README.md                   # This file
-
+```
 ## Usage
 
 - **Browse the product list** on the homepage.
