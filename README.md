@@ -33,3 +33,41 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/your-username/ecommerce-app.git
    cd ecommerce-app
+
+2. **Install the dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server**:
+
+    ```bash
+    npm start
+    ```
+
+4. **Open your browser** and go to `http://localhost:3000` to see the application in action.
+
+## Project Structure
+
+```plaintext
+ecommerce-app/
+│
+├── public/                     # Public assets
+├── src/
+│   ├── components/             # React components (ProductList, Cart, Navbar, etc.)
+│   ├── redux/                  # Redux state management files (cartSlice, store, etc.)
+│   ├── pages/                  # Pages (ProductDetails, CartPage, etc.)
+│   ├── App.js                  # Main application component
+│   ├── index.js                # Entry point
+│   └── ...                     # Other necessary files
+│
+├── package.json                # npm scripts and dependencies
+└── README.md                   # This file
+
+## Usage
+
+- **Browse the product list** on the homepage.
+- **Click on a product** to view its details.
+- **Add products to the cart** by clicking the "Add to Cart" button.
+- **Click on the cart icon** in the navbar to view the cart items and total cost.
